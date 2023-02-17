@@ -1,6 +1,9 @@
 .logo{
     width: 74%;
 }
+h2{
+    font-size: small;
+}
 
 body{
     font-family: 'Raleway', sans-serif;
@@ -12,18 +15,26 @@ body{
 
     width: 30%;
     display: flex;
+
 }
 
 .container_nav_line1:hover{
-    border-top: blue 3px solid;
+    border-top: #0065fc 3px solid;
+    sur
 }
 
 .container_nav_line2:hover{
-    border-top: blue 3px solid;
+    border-top: #0065fc 3px solid;
+    color: #0065fc;
 }
 
 .link{
     margin-top: 46px;
+}
+
+.link:hover{
+    margin-top: 46px;
+    color: #0065fc;
 }
 
 .container_nav_line1{
@@ -52,4 +63,27 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+form{
+    
+}
+
+button{
+    color: white;
+    background-color: #0065fc;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #0065fc;
+}
+
+input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: -12px;
+    border: 1px solid #f2f2f2;
+
+}
+
+input::placeholder{
+    opacity : 1;
 }
