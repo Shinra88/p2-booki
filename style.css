@@ -11,33 +11,33 @@ body{
     padding-right: 2.5%;
     padding-top: 6px;
 }
-.container_nav{
+.container_menu{
 
     width: 30%;
     display: flex;
 
 }
 
-.container_nav_line1:hover{
+.container_menu1:hover{
     border-top: #0065fc 3px solid;
     sur
 }
 
-.container_nav_line2:hover{
+.container_menu2:hover{
     border-top: #0065fc 3px solid;
     color: #0065fc;
 }
 
-.link{
+.lien{
     margin-top: 46px;
 }
 
-.link:hover{
+.lien:hover{
     margin-top: 46px;
     color: #0065fc;
 }
 
-.container_nav_line1{
+.container_menu1{
 
     width: 50%;
     display: flex;
@@ -45,7 +45,7 @@ body{
     justify-content: center;
 }
 
-.container_nav_line2{
+.container_menu2{
 
     width: 50%;
     display: flex;
@@ -68,7 +68,7 @@ form{
     
 }
 
-button{
+#bouton_recherche{
     color: white;
     background-color: #0065fc;
     border-top-right-radius: 5px;
@@ -77,7 +77,7 @@ button{
     
 }
 
-input{
+#recherche{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     margin-right: -12px;
@@ -85,6 +85,6 @@ input{
 
 }
 
-input::placeholder{
+#recherche::placeholder{
     opacity : 1;
 }
