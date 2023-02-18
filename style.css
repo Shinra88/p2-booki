@@ -12,10 +12,8 @@ body{
     padding-top: 6px;
 }
 .container_menu{
-
     width: 30%;
     display: flex;
-
 }
 
 .container_menu1:hover{
