@@ -8,14 +8,6 @@ h2{
     font-size: small;
 }
 
-h1{
-    font-size: 19px;
-}
-
-p{
-    font-size: 12px;
-}
-
 nav{
     height: 74px;
     display: flex;
@@ -72,21 +64,18 @@ body{
     padding-top: 6px;
 }
 
+    h1{
+        font-size: 19px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+    
     #recherche{
         display:flex;
         height: 43px;
         margin-top: 15px;  
-    }
-
-    #bouton_recherche{
-        color: white;
-        background-color: #0065fc;
-        border-top-right-radius: 12px;
-        border-bottom-right-radius: 12px;
-        border: 1px solid #0065fc;
-        font-weight: bold;
-        width: 12%;
-    
     }
 
     #recherche_input{
@@ -95,7 +84,16 @@ body{
         border: 1px solid #f2f2f2;
         height: 43px;
         width: 120px;
-
+    }
+    
+    #bouton_recherche{
+        color: white;
+        background-color: #0065fc;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        border: 1px solid #0065fc;
+        font-weight: bold;
+        width: 12%;
     }
 
     #recherche_input::placeholder{
@@ -104,16 +102,6 @@ body{
 
     #loupe_tel{
         display: none;
-    }
-
-    #icon{
-        width: 45px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #f4f4f4;
-        border-top-left-radius: 12px;
-        border-bottom-left-radius: 12px;
     }
 
     .filtre_recherche{
@@ -133,7 +121,6 @@ body{
         color: #0065fc;
         margin-right: 12px;
         padding: 7px 11px 7px 11px; 
-
     }
 
     .filtre_recherche div{
@@ -148,6 +135,21 @@ body{
         padding-right: 12px;
         font-weight: bold;
     }
+
+    #icon{
+        width: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f4f4f4;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+    
+    .info p{
+        display: initial;
+    }
+
     .fa-solid.fa-info{
         color: #0065fc;
         border-radius: 50px;
@@ -155,8 +157,4 @@ body{
         margin-right: 8px;
         padding: 7px 11px 7px 11px;
         font-size: 14px;
-    }
-
-    .info p{
-        display: initial;
     }
