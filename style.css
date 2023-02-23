@@ -85,6 +85,8 @@ nav{
         border: 1px solid #0065fc;
         font-weight: bold;
         width: 12%;
+        font-family: 'Raleway';
+        font-style: normal;
     }
 
     #recherche_input::placeholder{
@@ -98,8 +100,9 @@ nav{
     .filtre_recherche{
         display: flex;
         flex-wrap: wrap;
-        margin: 17px;
+        margin: 17px 17px 17px 7px;
         font-size: 12px;
+        font-family: 'Raleway';
     }
 
     .filtre_recherche i {
@@ -110,25 +113,27 @@ nav{
         justify-content: center;
         margin: -2px;
         color: #0065fc;
-        margin-right: 12px;
-        padding: 7px 11px 7px 11px; 
+        padding: 7px 11px 7px 11px;
+    }
+
+    .filtre_recherche h2 {
+        font-size: small;
+        padding-top: 12px;
     }
 
     .filtre_recherche div{
         display: flex;
         align-items: center;
-        margin-right: 22px;
+        margin-right: 12px;
         border: 2px solid #d9d9d9;
         border-radius: 32px;
         margin: 15px;
         transition-duration: 0.1s;
         cursor: pointer;
         padding-right: 12px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         font-weight: bold;
-    }
-
-    h2{
-        font-size: small;
     }
 
     #icon{
@@ -141,8 +146,8 @@ nav{
         border-bottom-left-radius: 12px;
     }
     
-    .info p{
-        display: initial;
+    .info i{
+        display: initial;        
     }
 
     .fa-solid.fa-info{
@@ -152,6 +157,7 @@ nav{
         margin-right: 8px;
         padding: 7px 11px 7px 11px;
         font-size: 14px;
+        margin-left: 9px;
     }
 
 .section1{
