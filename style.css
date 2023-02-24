@@ -1,3 +1,5 @@
+
+    
 body{
     font-family: 'Raleway', sans-serif;
     margin-left: 55px;
@@ -76,7 +78,6 @@ nav{
     #recherche_input{
         margin-right: -2px;
         margin-left: -2px;
-        padding-right: ;
         border: 1px solid #f2f2f2;
         height: 43px;
         width: 234px;
@@ -178,10 +179,15 @@ nav{
         margin-left: 9px;
     }
 
+.section_aside{
+    display: flex;
+    flex-direction: row;
+}
+
 .section1{
     top: 426px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 626px;
     width: 880px;
     background-color: #f2f2f2;
@@ -202,6 +208,7 @@ nav{
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px; 
     box-sizing: border-box;
+    object-fit: cover
 }
 
 .card1{
@@ -728,10 +735,428 @@ nav{
 }
 
 .section1_footer{
-  margin-top: 450px;
-  margin-left: 44px;
+  margin-top: 501px;
 }
 
-.section2{
-    display: none;
+.aside{
+    top: 426px;
+    display: flex;
+    flex-direction: row;
+    height: 625px;
+    width: 420px;
+    margin-left: 970px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    position: absolute;
 }
+
+.aside_titre{
+    margin-top: 25px;
+    margin-left: 40px;
+    padding-bottom: 23px;
+    font-family: 'Raleway', sans-serif; 
+}
+
+.image2{
+    height: 144px;
+    width: 137px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 0px 0px 20px; 
+    box-sizing: border-box;
+    object-fit: cover
+}
+
+.card7{
+    display: flex;
+    height: 144px;
+    width: 343px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 93px;
+    margin-left: 37px;
+    position: absolute;
+}
+
+    .card7 p{
+        position: absolute;
+        width: 169px;
+        height: 15px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        top: 48px;
+        margin-left: 152px;
+    }
+
+    .card7 h1{
+        position: absolute;
+        width: 169px;
+        height: 38px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        top: 2px;
+        margin-left: 152px;
+    }
+
+    .card7 .star1{
+        display: flex;
+        height: 12px;
+        width: 12px;
+        color: #0065fc;
+        padding-left: 8px;
+        margin-top: 120px;
+       
+
+    }
+    .card7 .star2{
+        display: flex;
+        height: 12px;
+        width: 12px;
+        color: #0065fc;
+        padding-left: 8px;
+        margin-top: 120px;
+
+    }
+    .card7 .star3{
+        display: flex;
+        height: 12px;
+        width: 12px;
+        color: #0065fc;
+        padding-left: 8px;
+        margin-top: 120px;
+
+    }
+    .card7 .star4{
+        display: flex;
+        height: 12px;
+        width: 12px;
+        color: #0065fc;
+        padding-left: 8px;
+        margin-top: 120px;
+
+    }
+    .card7 .star5{
+        display: flex;
+        height: 12px;
+        width: 12px;
+        color: #f2f2f2;
+        padding-left: 8px;
+        margin-top: 120px;
+
+    }
+
+    .card8{
+        display: flex;
+        height: 144px;
+        width: 343px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        margin-top: 270px;
+        margin-left: 37px;
+        position: absolute;
+    }
+    
+        .card8 p{
+            position: absolute;
+            width: 169px;
+            height: 15px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #000000;
+            top: 48px;
+            margin-left: 152px;
+        }
+    
+        .card8 h1{
+            position: absolute;
+            width: 169px;
+            height: 38px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            top: 2px;
+            margin-left: 152px;
+        }
+    
+        .card8 .star1{
+            display: flex;
+            height: 12px;
+            width: 12px;
+            color: #0065fc;
+            padding-left: 8px;
+            margin-top: 120px;
+           
+    
+        }
+        .card8 .star2{
+            display: flex;
+            height: 12px;
+            width: 12px;
+            color: #0065fc;
+            padding-left: 8px;
+            margin-top: 120px;
+    
+        }
+        .card8 .star3{
+            display: flex;
+            height: 12px;
+            width: 12px;
+            color: #0065fc;
+            padding-left: 8px;
+            margin-top: 120px;
+    
+        }
+        .card8 .star4{
+            display: flex;
+            height: 12px;
+            width: 12px;
+            color: #0065fc;
+            padding-left: 8px;
+            margin-top: 120px;
+    
+        }
+        .card8 .star5{
+            display: flex;
+            height: 12px;
+            width: 12px;
+            color: #f2f2f2;
+            padding-left: 8px;
+            margin-top: 120px;
+    
+        }
+
+        .card9{
+            display: flex;
+            height: 144px;
+            width: 343px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            margin-top: 447px;
+            margin-left: 37px;
+            position: absolute;
+        }
+        
+            .card9 p{
+                position: absolute;
+                width: 169px;
+                height: 15px;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                color: #000000;
+                top: 32px;
+                margin-left: 152px;
+            }
+        
+            .card9 h1{
+                position: absolute;
+                width: 169px;
+                height: 38px;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;
+                top: 2px;
+                margin-left: 152px;
+            }
+        
+            .card9 .star1{
+                display: flex;
+                height: 12px;
+                width: 12px;
+                color: #0065fc;
+                padding-left: 8px;
+                margin-top: 120px;
+               
+        
+            }
+            .card9 .star2{
+                display: flex;
+                height: 12px;
+                width: 12px;
+                color: #0065fc;
+                padding-left: 8px;
+                margin-top: 120px;
+        
+            }
+            .card9 .star3{
+                display: flex;
+                height: 12px;
+                width: 12px;
+                color: #0065fc;
+                padding-left: 8px;
+                margin-top: 120px;
+        
+            }
+            .card9 .star4{
+                display: flex;
+                height: 12px;
+                width: 12px;
+                color: #0065fc;
+                padding-left: 8px;
+                margin-top: 120px;
+        
+            }
+            .card9 .star5{
+                display: flex;
+                height: 12px;
+                width: 12px;
+                color: #f2f2f2;
+                padding-left: 8px;
+                margin-top: 120px;
+        
+            }
+
+.section2{
+    top: 1112px;
+    display: flex;
+    flex-direction: row;
+    height: 626px;
+    width: 1339px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.section2_titre{
+    margin-top: 25px;
+    margin-left: 40px;
+    padding-bottom: 23px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.image3{
+    height: 389px;
+    width: 302px;
+    border-radius: 20px 20px 0px 0px; 
+    box-sizing: border-box;
+    object-fit: cover
+}
+
+.card10{
+    display: flex;
+    height: 445px;
+    width: 302px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 93px;
+    margin-left: 37px;
+    position: absolute;
+    box-shadow: 1px 1px 1px 1px #d9d9d9;
+    
+}
+
+    .card10 h1{
+        position: absolute;
+        width: 247px;
+        height: 15px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        top: 2px;
+        margin-left: 19px;
+        margin-top: 409px;
+    }
+
+    .card11{
+        display: flex;
+        height: 445px;
+        width: 302px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        margin-top: 93px;
+        margin-left: 382px;
+        position: absolute;
+        box-shadow: 1px 1px 1px 1px #d9d9d9;
+    }
+
+        .card11 h1{
+            position: absolute;
+            width: 247px;
+            height: 15px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            top: 2px;
+            margin-left: 19px;
+            margin-top: 409px;    
+        }
+
+        .card12{
+            display: flex;
+            height: 445px;
+            width: 302px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            margin-top: 93px;
+            margin-left: 727px;
+            position: absolute;
+            box-shadow: 1px 1px 1px 1px #d9d9d9;
+        }
+        
+            .card12 h1{
+                position: absolute;
+                width: 247px;
+                height: 15px;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;
+                top: 2px;
+                margin-left: 19px;
+                margin-top: 409px;
+            }
+
+            .card13{
+                display: flex;
+                height: 445px;
+                width: 302px;
+                background-color: #ffffff;
+                border-radius: 20px;
+                margin-top: 93px;
+                margin-left: 1072px;
+                position: absolute;
+                box-shadow: 1px 1px 1px 1px #d9d9d9;
+            }
+
+                .card13 h1{
+                    position: absolute;
+                    width: 247px;
+                    height: 15px;
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;
+                    top: 2px;
+                    margin-left: 19px;
+                    margin-top: 409px;
+                }
+                
+
+
