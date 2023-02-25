@@ -19,6 +19,7 @@ nav{
     .container_menu{
         width: 30%;
         display: flex;
+        margin-right: 77px;
     }
 
     .container_menu1{
@@ -32,6 +33,7 @@ nav{
     .container_menu1:hover{
         border-top: #0065fc 2px solid;
         width: 162px;
+        
 
         }
 
@@ -54,7 +56,7 @@ nav{
     }
 
         .lien:hover{
-            margin-top: 46px;
+            position: absolute;
             color: #0065fc;
         }
 
