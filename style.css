@@ -67,11 +67,11 @@ nav{
         margin-top: 67px;
     }
 
-    h1{
+    .intro h1{
         font-size: 19px;
     }
 
-    p{
+    .intro p{
         font-size: 12px;
     }
     
@@ -189,13 +189,16 @@ nav{
 .section_aside{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .section1{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     height: 626px;
-    width: 60%;
+    width: 62%;
     background-color: #f2f2f2;
     border-radius: 20px;
 }
@@ -208,8 +211,8 @@ nav{
 }
 
 .image{
-    height: 124px;
-    width: 246px;
+    height: 55%;
+    width: 100%;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px; 
     box-sizing: border-box;
@@ -220,16 +223,17 @@ nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
+    margin-left: 40px;
 }
 
 .card{
     height: 199px;
-    width: 246px;
+    width: 28%;
     background-color: #ffffff;
     border-radius: 20px;
-    margin-top: 91px;
-    margin-left: 40px;
-    
+    margin-bottom: 30px;
+    margin-right: 31px;
 }
 
     .card p{
@@ -242,12 +246,10 @@ nav{
         font-size: 14px;
         line-height: 16px;
         color: #000000;
-        top: 152px;
-        margin-top: 9px;
         margin-left: 16px;
     }
 
-    .card h1{   
+    .card h3{   
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -256,7 +258,6 @@ nav{
         color: #000000;   
         width: 204px;
         height: 15px;
-        top: 128px;
         margin-top: 4px; 
         margin-left: 16px;
     }
@@ -267,8 +268,6 @@ nav{
         width: 12px;
         color: #0065fc;
         margin-left: 16px;   
-        margin-top: 52px;
-
     }
     .card .star2{
         display: flex;
@@ -276,8 +275,6 @@ nav{
         width: 12px;
         color: #0065fc;
         padding-left: 8px;
-        margin-top: 52px;
-
     }
     .card .star3{
         display: flex;
@@ -285,8 +282,6 @@ nav{
         width: 12px;
         color: #0065fc;
         padding-left: 8px;
-        margin-top: 52px;
-
     }
     .card .star4{
         display: flex;
@@ -294,8 +289,6 @@ nav{
         width: 12px;
         color: #0065fc;
         padding-left: 8px;
-        margin-top: 52px;
-
     }
     .card .star5{
         display: flex;
@@ -303,8 +296,6 @@ nav{
         width: 12px;
         color: #f2f2f2;
         padding-left: 8px;
-        margin-top: 52px;
-
     }
 
 .star{
@@ -312,18 +303,18 @@ nav{
 }
 
 .section1_footer{
-  margin-top: 501px;
+    margin-left: 44px;
 }
 
-.aside{
-    top: 426px;
+.aside{  
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
     height: 625px;
-    width: 35%;
-    margin-left: 933px;
+    width: 100%;
     background-color: #f2f2f2;
     border-radius: 20px;
+    margin-left: 40px;
 }
 
 .aside_titre{
@@ -353,19 +344,26 @@ nav{
     object-fit: cover
 }
 
-.card7{
+.card2{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     height: 144px;
     width: 343px;
     background-color: #ffffff;
     border-radius: 20px;
-    margin-top: 93px;
     margin-left: 37px;
-    position: absolute;
+    margin-bottom: 33px;
 }
 
-    .card7 p{
-        position: absolute;
+    .card2_text{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }
+    
+    .card2 p{
         width: 169px;
         height: 15px;
         font-family: 'Raleway';
@@ -374,12 +372,10 @@ nav{
         font-size: 14px;
         line-height: 16px;
         color: #000000;
-        top: 48px;
-        margin-left: 152px;
+        margin-top: 0;
     }
 
-    .card7 h1{
-        position: absolute;
+    .card2 h3{
         width: 169px;
         height: 38px;
         font-family: 'Raleway';
@@ -388,11 +384,9 @@ nav{
         font-size: 16px;
         line-height: 19px;
         color: #000000;
-        top: 2px;
-        margin-left: 152px;
     }
 
-    .card7 .star1{
+    .card2 .star1{
         display: flex;
         height: 12px;
         width: 12px;
@@ -402,7 +396,7 @@ nav{
        
 
     }
-    .card7 .star2{
+    .card2 .star2{
         display: flex;
         height: 12px;
         width: 12px;
@@ -411,7 +405,7 @@ nav{
         margin-top: 120px;
 
     }
-    .card7 .star3{
+    .card2 .star3{
         display: flex;
         height: 12px;
         width: 12px;
@@ -420,7 +414,7 @@ nav{
         margin-top: 120px;
 
     }
-    .card7 .star4{
+    .card2 .star4{
         display: flex;
         height: 12px;
         width: 12px;
@@ -429,7 +423,7 @@ nav{
         margin-top: 120px;
 
     }
-    .card7 .star5{
+    .card2 .star5{
         display: flex;
         height: 12px;
         width: 12px;
@@ -438,177 +432,6 @@ nav{
         margin-top: 120px;
 
     }
-
-.card8{
-    display: flex;
-    height: 144px;
-    width: 343px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    margin-top: 270px;
-    margin-left: 37px;
-    position: absolute;
-}
-    
-    .card8 p{
-        position: absolute;
-        width: 169px;
-        height: 15px;
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        color: #000000;
-        top: 48px;
-        margin-left: 152px;
-    }
-
-    .card8 h1{
-        position: absolute;
-        width: 169px;
-        height: 38px;
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-        color: #000000;
-        top: 2px;
-        margin-left: 152px;
-    }
-
-    .card8 .star1{
-        display: flex;
-        height: 12px;
-        width: 12px;
-        color: #0065fc;
-        padding-left: 8px;
-        margin-top: 120px;
-    
-
-    }
-    .card8 .star2{
-        display: flex;
-        height: 12px;
-        width: 12px;
-        color: #0065fc;
-        padding-left: 8px;
-        margin-top: 120px;
-
-    }
-    .card8 .star3{
-        display: flex;
-        height: 12px;
-        width: 12px;
-        color: #0065fc;
-        padding-left: 8px;
-        margin-top: 120px;
-
-    }
-    .card8 .star4{
-        display: flex;
-        height: 12px;
-        width: 12px;
-        color: #0065fc;
-        padding-left: 8px;
-        margin-top: 120px;
-
-    }
-    .card8 .star5{
-        display: flex;
-        height: 12px;
-        width: 12px;
-        color: #f2f2f2;
-        padding-left: 8px;
-        margin-top: 120px;
-
-    }   
-
-.card9{
-    display: flex;
-    height: 144px;
-    width: 343px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    margin-top: 447px;
-    margin-left: 37px;
-    position: absolute;
-}    
-        
-    .card9 p{
-        position: absolute;
-        width: 169px;
-        height: 15px;
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        color: #000000;
-        top: 32px;
-        margin-left: 152px;
-    }
-
-    .card9 h1{
-        position: absolute;
-        width: 169px;
-        height: 38px;
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-        color: #000000;
-        top: 2px;
-        margin-left: 152px;
-    }
-
-    .card9 .star1{
-        display: flex;
-        height: 12px;
-        width: 12px;
-        color: #0065fc;
-        padding-left: 8px;
-        margin-top: 120px;
-    
-
-    }
-    .card9 .star2{
-        display: flex;
-        height: 12px;
-        width: 12px;
-        color: #0065fc;
-        padding-left: 8px;
-        margin-top: 120px;
-
-    }
-    .card9 .star3{
-        display: flex;
-        height: 12px;
-        width: 12px;
-        color: #0065fc;
-        padding-left: 8px;
-        margin-top: 120px;
-
-    }
-    .card9 .star4{
-        display: flex;
-        height: 12px;
-        width: 12px;
-        color: #0065fc;
-        padding-left: 8px;
-        margin-top: 120px;
-
-    }
-    .card9 .star5{
-        display: flex;
-        height: 12px;
-        width: 12px;
-        color: #f2f2f2;
-        padding-left: 8px;
-        margin-top: 120px;
-    }           
 
 .section2{
     top: 1062px;
