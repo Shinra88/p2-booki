@@ -197,16 +197,16 @@ nav{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 626px;
-    width: 62%;
+    height: 812px;
+    width: 63%;
     background-color: #f2f2f2;
     border-radius: 20px;
 }
 
 .section1_titre{
-    margin-top: 25px;
+    margin-top: 38px;
     margin-left: 40px;
-    padding-bottom: 23px;
+    padding-bottom: 22px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -223,21 +223,21 @@ nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 610px;
     width: 100%;
-    margin-left: 40px;
+    margin-left: 45px;
 }
 
 .card{
-    height: 199px;
+    height: 249px;
     width: 28%;
     background-color: #ffffff;
     border-radius: 20px;
-    margin-bottom: 30px;
-    margin-right: 31px;
+    margin-bottom: 45px;
+    margin-right: 45px;
 }
 
     .card p{
-        
         width: 204px;
         height: 15px;
         font-family: 'Raleway';
@@ -304,72 +304,69 @@ nav{
 
 .section1_footer{
     margin-left: 44px;
+    margin-top: -22px;    
 }
 
 .aside{  
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 625px;
-    width: 100%;
+    height: 812px;
+    width: 130%;
     background-color: #f2f2f2;
     border-radius: 20px;
-    margin-left: 40px;
+    margin-left: 65px;
 }
 
 .aside_titre{
     display: flex;
-    margin-top: 25px;
+    margin-top: 38px;
     margin-left: 40px;
-    padding-bottom: 23px;
+    padding-bottom: 22px;
     font-family: 'Raleway', sans-serif; 
 }
 
 .graphs{
-    display: flex;
     height: 16px;
     width: 18px;
     color: #0065fc;
-    margin-left: 142px;
-    margin-top: 21px;
-
+    padding-top: 28px;
+    margin-left: 196px;
+    margin-right: -135px;
 }
 
 .image2{
-    height: 144px;
-    width: 137px;
+    height: 182px;
+    width: 50%;
     border: 5px solid #FFFFFF;
     border-radius: 20px 0px 0px 20px; 
     box-sizing: border-box;
-    object-fit: cover
+    object-fit: cover;
 }
 
 .card2_contener{
-    display: flex;
-    flex-direction: column;
     height: 210px;
     width: 100%;
-    
 }
 
 .card2{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 144px;
-    width: 343px;
+    height: 182px;
+    width: 80%;
     background-color: #ffffff;
     border-radius: 20px;
-    margin-left: 37px;
-    margin-bottom: 33px;
+    margin-left: 55px;
+    margin-bottom: 55px;
 }
 
     .card2_text{
-        margin-left: 15px;
+        margin-left: px;
     }
     
     .card2 p{
-        width: 169px;
+        width: 70%;
         height: 15px;
         font-family: 'Raleway';
         font-style: normal;
@@ -380,7 +377,7 @@ nav{
     }
 
     .card2 h3{
-        width: 169px;
+        width: 70%;
         height: 38px;
         font-family: 'Raleway';
         font-style: normal;
@@ -391,54 +388,36 @@ nav{
     }
 
     .card2 .star1{
-        display: flex;
         height: 12px;
         width: 12px;
         color: #0065fc;
-        padding-left: 8px;
-        margin-top: 120px;
-       
-
     }
     .card2 .star2{
-        display: flex;
         height: 12px;
         width: 12px;
         color: #0065fc;
         padding-left: 8px;
-        margin-top: 120px;
-
     }
     .card2 .star3{
-        display: flex;
         height: 12px;
         width: 12px;
         color: #0065fc;
         padding-left: 8px;
-        margin-top: 120px;
-
     }
     .card2 .star4{
-        display: flex;
         height: 12px;
         width: 12px;
         color: #0065fc;
         padding-left: 8px;
-        margin-top: 120px;
-
     }
     .card2 .star5{
-        display: flex;
         height: 12px;
         width: 12px;
         color: #f2f2f2;
         padding-left: 8px;
-        margin-top: 120px;
-
     }
 
 .section2{
-    top: 1062px;
     display: flex;
     flex-direction: row;
     height: 626px;
