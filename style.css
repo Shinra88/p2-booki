@@ -344,6 +344,14 @@ nav{
     object-fit: cover
 }
 
+.card2_contener{
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+    width: 100%;
+    
+}
+
 .card2{
     display: flex;
     flex-direction: column;
@@ -357,9 +365,6 @@ nav{
 }
 
     .card2_text{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
         margin-left: 15px;
     }
     
@@ -372,7 +377,6 @@ nav{
         font-size: 14px;
         line-height: 16px;
         color: #000000;
-        margin-top: 0;
     }
 
     .card2 h3{
