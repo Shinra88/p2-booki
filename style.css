@@ -8,16 +8,21 @@ body{
     margin-left: 55px;
 }
 
+header{
+    display: flex;
+}
+
+.logo{
+    width: 61.09px;
+    height: 19px; 
+    margin-top: 44px;  
+}
+
 nav{
     display: flex;
     justify-content: space-between;
+    margin-left: 74%;
 }
-
-    .logo{
-        width: 61.09px;
-        height: 19px; 
-        margin-top: 44px;   
-    }
 
     .container_menu{
         width: 30%;
@@ -92,13 +97,14 @@ nav{
     #bouton_recherche{
         color: white;
         background-color: #0065fc;
-        border-top-right-radius: 12px;
-        border-bottom-right-radius: 12px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
         border: 1px solid #0065fc;
-        font-weight: bold;
-        width: 12%;
-        font-family: 'Raleway';
-        font-style: normal;
+        width: 16%;
+        font-family:'Raleway';
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
     }
 
     #recherche_input::placeholder{
