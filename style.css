@@ -1,38 +1,43 @@
 
 
-        
-body{
-    font-family: 'Raleway', sans-serif;
-    margin-left: 55px;
-}
-
-header{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.logo{
-    display: flex;
-    width: 61.09px;
-    height: 19px; 
-    margin-top: 44px;  
-}
-
-/* nav plus contenu */
 
 
-
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 800px) {
     
+    body{
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+/* header logo */    
+    .logo_img{
+        display: flex;
+        justify-content: center;
+        margin-top: 21px;
+        margin-bottom: 48.56px;
+    }
+
+    .logo{
+        width: 61px;
+        height: 19px;         
+    }
+/* nav plus contenu */
     .container_menu{
         display: flex;
-        margin-left: 44px;
+        justify-content: center;
+        text-align: center;
     }
     
         .container_menu1{
-            width: 100%;
+            width: 50%;
             display: flex;
+            text-align: center;
+            
         }
     
         .container_menu1:hover{
@@ -41,9 +46,9 @@ header{
         }
     
         .container_menu2{
-            width: 100%;
+            width: 50%;
             display: flex;
-            margin-left: 68px;
+            
         }
     
             .container_menu2:hover{
@@ -65,10 +70,36 @@ header{
 
 @media screen and (min-width: 801px) {
     
+    body{
+        font-family: 'Raleway', sans-serif;
+        margin-left: 55px;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: row;
+    }
+
+/* logo */
+
+    .logo_img{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .logo{
+            display: flex;
+            width: 61.09px;
+            height: 19px; 
+            margin-top: 44px;  
+        }
+
+/* nav plus contenu */
+
     .container_menu{
         display: flex;
         justify-content: space-between;
-        margin-left: 74%;    
+        margin-left: 65%;    
     }
     
         .container_menu1{
@@ -102,8 +133,7 @@ header{
             text-decoration: none;
         }
     
-            .lien:hover{
-                position: absolute;
+            .lien:hover{    
                 color: #0065fc;
             }    
     
