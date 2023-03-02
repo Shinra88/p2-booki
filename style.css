@@ -96,7 +96,7 @@
         margin-left: -2px;
         border: 1px solid #f2f2f2;
         height: 43px;
-        width: 234px;
+        width: 15%;
     }
 
     #recherche_input::placeholder{
@@ -660,7 +660,7 @@
         margin-left: -2px;
         border: 1px solid #f2f2f2;
         height: 43px;
-        width: 234px;
+        width: 15%;
     }
 
     #recherche_input::placeholder{
@@ -1210,7 +1210,7 @@
         margin-left: -2px;
         border: 1px solid #f2f2f2;
         height: 43px;
-        width: 234px;
+        width: 15%;
     }
 
     #recherche_input::placeholder{
