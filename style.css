@@ -254,6 +254,11 @@ body{
     width: 100%;
 }
 
+.card_cont{
+    display: flex;
+    flex-direction: column;
+    }
+
 .card{
     display: flex;
     flex-direction: column;
@@ -385,11 +390,6 @@ body{
     align-items: center;
     height: 510px;
     width: 100%;
-}
-
-.card2_cont{
-display: flex;
-flex-direction: column;
 }
 
 .card2{
