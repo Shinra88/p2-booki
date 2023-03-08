@@ -212,8 +212,9 @@ body{
 
 .star{
     display: flex;
-    align-self: flex-end;
-    height: 40px;
+    align-items: flex-end;
+    flex: 1;
+    
 }
 
 /* Hebergement plus contenu */
@@ -386,6 +387,11 @@ body{
     width: 100%;
 }
 
+.card2_cont{
+display: flex;
+flex-direction: column;
+}
+
 .card2{
     display: flex;
     height: 144px;
@@ -400,6 +406,7 @@ body{
         font-weight: 400;
         font-size: 14px;
         line-height: 16px;
+        margin-bottom: 0px;
     }
 
     .card2 h3{
@@ -410,41 +417,36 @@ body{
 
     .card2 .star1{
         display: flex;
-        flex-wrap: wrap;
-        align-content: flex-end;
         color: #0065fc;
+        padding-bottom: 4px;
     }
 
     .card2 .star2{
         display: flex;
-        flex-wrap: wrap;
-        align-content: flex-end;
         color: #0065fc;
         padding-left: 2px;
+        padding-bottom: 4px;
     }
 
     .card2 .star3{
         display: flex;
-        flex-wrap: wrap;
-        align-content: flex-end;
         color: #0065fc;
         padding-left: 2px;
+        padding-bottom: 4px;
     }
 
     .card2 .star4{
         display: flex;
-        flex-wrap: wrap;
-        align-content: flex-end;
         color: #0065fc;
         padding-left: 2px;
+        padding-bottom: 4px;
     }
 
     .card2 .star5{
         display: flex;
-        flex-wrap: wrap;
-        align-content: flex-end;
         color: #f2f2f2;
         padding-left: 2px;
+        padding-bottom: 4px;
     }
 
 /* Section2 plus contenu */
@@ -670,100 +672,7 @@ body{
         width: 30%;
     }
 
-    .card2_text{
-        display: flex;
-        flex-direction: column;
-        
-        
-    }
     
-        .card2_text h3{
-            width: 120px;
-        }
-
-        .card2_text p{  
-            margin-top: 0px; 
-        }
-
-        .card2_text2{
-            height: 150px;
-            width: 150px;
-        }
-        
-        .card2_text2 h3{
-            width: 111px;
-            height: 57px;
-            margin-top: 15px;
-            margin-left: 0px;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;      
-            color: #000000;
-        }
-
-        .card2_text2 p{
-            margin-bottom: 0px;
-            margin-left: 0px;
-            width: 130px;
-            height: 32px;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 16px;
-            color: #000000;
-        }
-
-    .card2_text3{
-        height: 150px;
-        width: 150px;
-    }
-    
-        .card2_text3 h3{
-            width: 104px;
-            height: 32px;
-            margin-left: 0px;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;      
-            color: #000000;
-        }
-
-        .card2_text3 p{
-            margin-top: -5px;
-            margin-bottom: 50px;
-            margin-left: 0px;
-            width: 130px;
-            height: 15px;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 16px;
-            color: #000000;
-        }
-        
-        .card2 .star1{
-            margin-top: 18px;
-        }
-
-        .card2 .star2{
-            margin-top: 18px;
-        }
-
-        .card2 .star3{
-            margin-top: 18px;
-        }
-
-        .card2 .star4{
-            margin-top: 18px;
-        }
-
-        .card2 .star5{
-            margin-top: 18px;
-        }
 
 /* Section2, plus contenu */
 
