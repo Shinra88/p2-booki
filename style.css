@@ -212,9 +212,13 @@ body{
 
 .star{
     display: flex;
+    align-items: flex-end;    
+}
+
+.star0{
+    display: flex;
     align-items: flex-end;
     flex: 1;
-    
 }
 
 /* Hebergement plus contenu */
@@ -250,6 +254,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     height: 504px;
     width: 100%;
 }
@@ -257,6 +262,8 @@ body{
 .card_cont{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
     }
 
 .card{
@@ -269,63 +276,56 @@ body{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.card_text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+    .card h3{
+        font-weight: 700;
+        font-size: 16px;      
+        line-height: 19px;
+        margin-top: 4px;
+        margin-bottom: 9px;
+    }
+
     .card p{
         font-weight: 400;
         font-size: 14px;
         line-height: 16px;
-        margin-left: 16px;
-        margin-top: 9px;
-        margin-bottom: 9px;
-    }
-
-    .card h3{  
-        height: 38px; 
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;     
-        margin-left: 16px;
-        margin-top: 2px;
+        margin-top: 0px;
         margin-bottom: 0px;
     }
 
     .card .star1{
         display: flex;
-        height: 12px;
-        width: 12px;
         color: #0065fc;
-        margin-left: 16px;   
+        margin-left: 16px;  
     }
 
     .card .star2{
         display: flex;
-        height: 12px;
-        width: 12px;
         color: #0065fc;
-        padding-left: 8px;
+        padding-left: 2px;
     }
 
     .card .star3{
         display: flex;
-        height: 12px;
-        width: 12px;
         color: #0065fc;
-        padding-left: 8px;
+        padding-left: 2px;
     }
 
     .card .star4{
         display: flex;
-        height: 12px;
-        width: 12px;
         color: #0065fc;
-        padding-left: 8px;
+        padding-left: 2px;
     }
 
     .card .star5{
         display: flex;
-        height: 12px;
-        width: 12px;
+        padding-left: 2px;
         color: #f2f2f2;
-        padding-left: 8px;
     }
 
     .hebergement_footer{
@@ -335,6 +335,7 @@ body{
         font-size: 18px;
         line-height: 21px;
         height: 21px;
+        padding-top: 6px;
         padding-left: 18px;
     }
 
@@ -418,35 +419,35 @@ body{
     .card2 .star1{
         display: flex;
         color: #0065fc;
-        padding-bottom: 4px;
+        padding-bottom: 8px;
     }
 
     .card2 .star2{
         display: flex;
         color: #0065fc;
         padding-left: 2px;
-        padding-bottom: 4px;
+        padding-bottom: 8px;
     }
 
     .card2 .star3{
         display: flex;
         color: #0065fc;
         padding-left: 2px;
-        padding-bottom: 4px;
+        padding-bottom: 8px;
     }
 
     .card2 .star4{
         display: flex;
         color: #0065fc;
         padding-left: 2px;
-        padding-bottom: 4px;
+        padding-bottom: 8px;
     }
 
     .card2 .star5{
         display: flex;
         color: #f2f2f2;
         padding-left: 2px;
-        padding-bottom: 4px;
+        padding-bottom: 8px;
     }
 
 /* Section2 plus contenu */
@@ -584,42 +585,6 @@ body{
         height: 55%;
     }
 
-        .card .star1{
-            display: flex;
-            height: 12px;
-            width: 12px;
-            color: #0065fc;
-            margin-left: 16px;   
-        }
-        .card .star2{
-            display: flex;
-            height: 12px;
-            width: 12px;
-            color: #0065fc;
-            padding-left: 8px;
-        }
-        .card .star3{
-            display: flex;
-            height: 12px;
-            width: 12px;
-            color: #0065fc;
-            padding-left: 8px;
-        }
-        .card .star4{
-            display: flex;
-            height: 12px;
-            width: 12px;
-            color: #0065fc;
-            padding-left: 8px;
-        }
-        .card .star5{
-            display: flex;
-            height: 12px;
-            width: 12px;
-            color: #f2f2f2;
-            padding-left: 8px;
-        }
-
 /* Pop plus contenu */
 
     .pop{
@@ -650,8 +615,6 @@ body{
         flex-direction: row;
         width: 30%;
     }
-
-    
 
 /* Section2, plus contenu */
 
