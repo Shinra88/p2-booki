@@ -469,7 +469,7 @@ flex-direction: column;
 .card3_contener{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }    
 .image3{
@@ -507,11 +507,10 @@ flex-direction: column;
 
 .footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding-top: 45px;
+    background-color: #f2f2f2;  
     height: 225px;
-    background-color: #f2f2f2;
-    padding-left: 70px;
-    padding-top: 45px;  
 }
     .footer h2{
         font-weight: 700;
@@ -522,26 +521,23 @@ flex-direction: column;
     .footer p{
         font-weight: 400;
         font-size: 16px;
-        line-height: 19px;    
+        line-height: 19px;
+        margin-bottom: 4px;    
     }
 
     .footer1{
         display: flex;
-        flex-direction: column;
-        width: 30%;
-        
+        flex-direction: column; 
     }
 
     .footer2{
         display: flex;
-        flex-direction: column;
-        width: 30%;
+        flex-direction: column; 
     }
 
     .footer3{
         display: flex;
         flex-direction: column;
-        width: 30%;
     }
 
 /*************************************************************************** comportement tablette ***************************************************************************/ 
@@ -555,24 +551,11 @@ flex-direction: column;
 /* recherche plus contenu */
         
     #recherche_input{
-        margin-right: -2px;
-        margin-left: -2px;
-        border: 1px solid #f2f2f2;
-        height: 43px;
         width: 15%;
     }
       
       #bouton_recherche{
-          color: white;
-          background-color: #0065fc;
-          border-top-right-radius: 15px;
-          border-bottom-right-radius: 15px;
-          border: 1px solid #0065fc;
-          width: 12%;
-          font-family:'Raleway';
-          font-weight: 700;
           font-size: 12px;
-          text-align: center;
       }    
 
 /* Hebergement plus pop */
@@ -580,13 +563,13 @@ flex-direction: column;
     .hebergement_pop{
         flex-direction: column;
         flex-wrap: wrap;
-        height: 1077px;
     }
 
 /* Hebergement plus contenu */
 
     .hebergement{ 
         width: 100%;
+        margin-bottom: 53px;
     }
 
     .hebergement_titre{
@@ -637,10 +620,6 @@ flex-direction: column;
             padding-left: 8px;
         }
 
-    .section1_footer {
-        padding-left: 26px; 
-    }
-
 /* Pop plus contenu */
 
     .pop{
@@ -677,137 +656,39 @@ flex-direction: column;
 /* Section2, plus contenu */
 
     .section2{
-        display: flex;
-        flex-direction: column;
-        height: 456px;
-        width: 100%;
+        height: 426px;
     }
-
-    .section2_titre{
-        margin-top: 25px;
-        padding-bottom: 23px;
-        font-family: 'Raleway', sans-serif;
-    }
-
-    .card3_contener{
-        display: flex;
-        width: 95%;
-        justify-content: space-between;
-
-    }    
+   
     .image3{
         height: 217px;
         width: 182px;
-        border-radius: 20px 20px 0px 0px; 
-        box-sizing: border-box;
-        object-fit: cover;
     }
 
     .card3{
         height: 267px;
         width: 182px;
-        background-color: #ffffff;
-        border-radius: 20px;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }    
         
         .vieux{
             width: 147px;
             height: 15px;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 19px;
-            color: #000000;
-            top: 2px;
-            margin-left: 19px;
-            margin-top: 12px;
-
         }
 
         .fort{
             width: 147px;
             height: 15px;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 19px;
-            color: #000000;
-            top: 2px;
-            margin-left: 19px;
-            margin-top: 12px;
         }
         
         .parc{
             width: 147px;
             height: 15px;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 19px;
-            color: #000000;
-            top: 2px;
-            margin-left: 19px;
-            margin-top: 2px;           
         } 
         
         .notre_dame{
             width: 147px;
             height: 15px;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 19px;
-            color: #000000;
-            top: 2px;
-            margin-left: 19px;
-            margin-top: 2px; 
-        }
-
-/* footer plus contenu */
-
-    .footer{
-        display: flex;
-        flex-direction: row;
-        height: 225px;
-        width: 94%;
-        background-color: #f2f2f2;
+        }        
         
-    }
-        .footer h2{
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 21px;
-        }
-
-        .footer p{
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 19px;    
-        }
-
-        .footer1{
-            margin-left: 70px;
-            margin-top: 45px;
-        }
-
-        .footer2{
-            padding-left: 12%;
-            margin-top: 45px;
-        }
-
-        .footer3{
-            margin-left: 12%;
-            margin-top: 45px;
-        }
 }
 
 /*************************************************************************** comportement mobile ***************************************************************************/ 
