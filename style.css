@@ -657,24 +657,13 @@ body{
 /*************************************************************************** comportement mobile ***************************************************************************/ 
 
 @media screen and (max-width: 767px) {
-    
-    body{
-        font-family: 'Raleway', sans-serif;
-    }
-    
+
     .tete{
-        display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 120px;
     }
+
     .logo_img{
-        display: flex;
-        align-items: center;
-        width: 100%;
         justify-content: center;
-        flex-direction: row;
         width: 100%;
         height: 80px;
     }
@@ -845,372 +834,84 @@ body{
         border-bottom-left-radius: 12px;
     }
         
-/* info plus contenu */
 
-    .info{
-        display: flex;
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px; 
-        align-items: center;
-        justify-content: center;   
-    }
-    .info p{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 28px; 
-    }
-
-        .info i{
-            display: initial;
-            margin-bottom: 35px;      
-        }    
-
-        .fa-solid.fa-info{
-            color: #0065fc;
-            border-radius: 50px;
-            border: solid #d9d9d9;
-            margin-right: 8px;
-            padding: 7px 11px 7px 11px;
-            font-size: 14px;
-            margin-left: 9px;
-        }
 
 /* Hebergement plus pop */
 
     .hebergement_pop{
         display: flex;
         flex-direction: column-reverse;
-        flex-wrap: wrap;
         width: 100%;
     }
 
-    .star{
-        display: flex;
-    }
+   
 
 /* Hebergement plus contenu */
 
     .hebergement{
         display: flex;
         flex-direction: column;
-        height: 1630px;
+        flex-wrap: wrap;
+        height: 1550px;
         width: 100%;
+        background-color: #FFFFFF;
     }
 
     .hebergement_titre{
-        margin-top: 38px;
-        margin-left: 40px;
-        padding-bottom: 22px;
-        font-family: 'Raleway', sans-serif;
-    }
-
-    .image{
-        height: 55%;
-        width: 100%;
-        border: 5px solid #FFFFFF;
-        border-radius: 20px 20px 0px 0px; 
-        box-sizing: border-box;
-        object-fit: cover
-    }
-
-    .card_contener{
-        display: flex;
-        flex-direction: column;
-        height: 1630px;
-        width: 100%;
-        margin-left: 32px;
+        padding-left: 0px;
     }
 
     .card{
-        height: 199px;
-        width: 335px;
-        background-color: #ffffff;
-        border-radius: 20px;
-        margin-bottom: 45px;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        width: 100%;
+        margin-bottom: 12px;
     }
 
-        .card p{
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 16px;
-            color: #000000;
-            margin-left: 16px;
-        }
-
-        .card h3{   
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 19px;    
-            color: #000000;   
-            margin-top: 4px; 
-            margin-left: 16px;
-        }
-
-        .card .star1{
-            display: flex;
-            height: 12px;
-            width: 12px;
-            color: #0065fc;
-            margin-left: 16px;   
-        }
-        .card .star2{
-            display: flex;
-            height: 12px;
-            width: 12px;
-            color: #0065fc;
-            padding-left: 8px;
-        }
-        .card .star3{
-            display: flex;
-            height: 12px;
-            width: 12px;
-            color: #0065fc;
-            padding-left: 8px;
-        }
-        .card .star4{
-            display: flex;
-            height: 12px;
-            width: 12px;
-            color: #0065fc;
-            padding-left: 8px;
-        }
-        .card .star5{
-            display: flex;
-            height: 12px;
-            width: 12px;
-            color: #f2f2f2;
-            padding-left: 8px;
-        }
-
-    .section1_footer{
+    .hebergement_footer{
         display: none;    
     }
 
 /* Pop plus contenu */
 
     .pop{  
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
         height: 680px;
-        width: 130%;
-        background-color: #f2f2f2;
-        
-        
-        
-    }
-
-    .pop_titre{
-        display: flex;
-        margin-top: 11px;
-        margin-left: 22px;
-        padding-bottom: 11px;
-        font-family: 'Raleway', sans-serif; 
-    }
-
-    .graphs{
-        height: 16px;
-        width: 18px;
-        color: #0065fc;
-        padding-top: 28px;
-        margin-left: 85px;
-    }
-
-    .image2{
-        height: 144px;
-        width: 137px;
-        border: 5px solid #FFFFFF;
-        border-radius: 20px 0px 0px 20px; 
-        box-sizing: border-box;
-        object-fit: cover;
-    }
-
-    .card2_contener{
-        height: 210px;
         width: 100%;
+        border-radius: 0;
     }
-
-    .card2{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 144px;
-        width: 334px;
-        background-color: #ffffff;
-        border-radius: 20px;
-        margin-bottom: 55px;
-        margin-left: 32px;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    }
-
-        .card2_text{
-            margin-left: 0px;
-        }
-        
-        .card2 p{
-            width: 169px;
-            height: 15px;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 16px;
-            color: #000000;
-        }
-
-        .card2 h3{
-            width: 169px;
-            height: 38px;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;      
-            color: #000000;
-        }
-
-        .card2 .star1{
-            height: 12px;
-            width: 12px;
-            color: #0065fc;
-            margin-top: 15px;
-        }
-
-        .card2 .star2{
-            height: 12px;
-            width: 12px;
-            color: #0065fc;
-            padding-left: 8px;
-            margin-top: 15px;
-        }
-
-        .card2 .star3{
-            height: 12px;
-            width: 12px;
-            color: #0065fc;
-            padding-left: 8px;
-            margin-top: 15px;
-        }
-
-        .card2 .star4{
-            height: 12px;
-            width: 12px;
-            color: #0065fc;
-            padding-left: 8px;
-            margin-top: 15px;
-        }
-
-        .card2 .star5{
-            height: 12px;
-            width: 12px;
-            color: #f2f2f2;
-            padding-left: 8px;
-            margin-top: 15px;
-        }
 
 /* Section2 plus contenu */
 
     .section2{
-        display: flex;
-        flex-direction: column;
-        height: 626px;
-        width: 100%;
+        height: 1026px; 
     }
 
     .section2_titre{
-        margin-top: 25px;
-        padding-bottom: 23px;
-        font-family: 'Raleway', sans-serif;
-        margin-left: 32px;
+        width: 212px;
     }
 
     .card3_contener{
-        display: flex;
         flex-direction: column;
-        width: 95%;
-        justify-content: space-between;
-
     }    
+
     .image3{
         height: 140px;
-        width: 334px;
-        border-radius: 20px 20px 0px 0px; 
-        box-sizing: border-box;
-        object-fit: cover;
     }
 
     .card3{
         height: 190px;
-        width: 334px;
-        background-color: #ffffff;
-        border-radius: 20px;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        width: 100%;
         margin-bottom: 24px;
-        margin-left: 32px;
     }    
 
         .card3 h3{
-            width: 247px;
-            height: 15px;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 19px;
-            color: #000000;
-            top: 2px;
             margin-left: 19px;
             margin-top: 12px;
         }                  
-
-/* footer plus contenu */
-
-    .footer{
-        display: flex;
-        flex-direction: column;
-        height: 551px;
-        width: 100%;
-        margin-top: 350px;
-        background-color: #f2f2f2;
-        
-    }
-        .footer h2{
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 21px;
-        }
-
-        .footer p{
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 19px;    
-        }
-
-        .footer1{
-            margin-left: 30px;
-            margin-top: 45px;
-        }
-
-        .footer2{
-            margin-left: 30px;
-            margin-top: 45px;
-        }
-
-        .footer3{
-            margin-left: 30px;
-            margin-top: 45px;
-        }
     
+        .footer{
+            height: 625px;
+            flex-direction: column;  
+            padding-top: 25px;
+        }
 }
 
 
