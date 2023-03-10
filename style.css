@@ -562,7 +562,13 @@ body{
       
       #bouton_recherche{
           font-size: 13px;
-      }    
+      }   
+
+/* filtre plus contenu */
+
+      .filtre_recherche p{
+        font-size: 16px;
+    }
 
 /* Hebergement plus pop */
 
