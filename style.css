@@ -1,13 +1,19 @@
 
 /*************************************************************************** comportement pc ***************************************************************************/ 
     
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
     margin-left: 35px;
     margin-right: 30px;
 }
 
-.tete{
+.headband{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -668,7 +674,7 @@ body{
         margin-right: 0px;
     }
 
-    .tete{
+    .headband{
         flex-direction: column;
     }
 
