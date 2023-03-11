@@ -5,7 +5,6 @@ html{
     justify-content: center;
 }
 
-
 body{
     font-family: 'Raleway', sans-serif;
     margin-left: 35px;
@@ -440,17 +439,18 @@ a{
                         flex-direction: column;
                     }
 
-                        .card2 p{
+                    .card2 h3{
+                        font-weight: 700;
+                        font-size: 16px;      
+                        line-height: 19px;
+                        margin-top: 0px;
+                    }
+                    
+                    .card2 p{
                             font-weight: 400;
                             font-size: 14px;
                             line-height: 16px;
                             margin-top: 0px;
-                        }
-
-                        .card2 h3{
-                            font-weight: 700;
-                            font-size: 16px;      
-                            line-height: 19px;
                         }
 
                     .card2 .star1{
@@ -657,11 +657,11 @@ a{
 
     .card_pop{
         flex-direction: row;
+        width: 30%;
     }
     
     .card2{
         flex-direction: row;
-        width: 30%;
     }
 
 /* Section2, plus contenu */
