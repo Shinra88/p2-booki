@@ -1,5 +1,6 @@
 
 /*************************************************************************** comportement pc ***************************************************************************/ 
+
 html{
     display: flex;
     justify-content: center;
@@ -89,22 +90,24 @@ a{
 }
 
     .intro h1{
-        font-weight: 700;
         font-size: 22px;
         line-height: 26px;
+        margin-bottom: 0px;
     }
 
     .intro p{
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
+        margin-top: 8px;
+        margin-bottom: 20px;
     }
 
 /* recherche plus contenu */
     
 #recherche{
     display:flex;
-    height: 43px;
+    height: 49px;
     margin-top: 15px;  
 }
 
@@ -112,12 +115,16 @@ a{
     margin-right: -2px;
     margin-left: -2px;
     border: 1px solid #f2f2f2;
-    height: 43px;
+    height: 49px;
     width: 16%;
 }
 
     #recherche_input::placeholder{
         opacity : 1;
+        font-weight: 700;
+        padding-left: 10px;
+        font-size: 18px;
+        color: #000000;
     }
 
     #bouton_recherche{
@@ -126,10 +133,10 @@ a{
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         border: 1px solid #0065fc;
-        width: 12%;
+        width: 10%;
         font-family:'Raleway';
         font-weight: 700;
-        font-size: 14px;
+        font-size: 18px;
         text-align: center;
 }
 
@@ -247,7 +254,7 @@ a{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 645px;
+    height: 655px;
     width: 65%;
     background-color: #f2f2f2;
     border-radius: 20px;
@@ -355,7 +362,7 @@ a{
         font-size: 18px;
         line-height: 21px;
         height: 21px;
-        padding-top: 6px;
+        padding-top: 12px;
         padding-left: 18px;
     }
 
@@ -365,7 +372,7 @@ a{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 645px;
+    height: 655px;
     width: 30%;
     background-color: #f2f2f2;
     border-radius: 20px;
@@ -437,6 +444,7 @@ a{
                     .card2_text{
                         display: flex;
                         flex-direction: column;
+                        max-width: 158px;
                     }
 
                     .card2 h3{
@@ -580,7 +588,7 @@ a{
 
 /*************************************************************************** comportement tablette ***************************************************************************/ 
     
-@media screen and (min-width : 768px) and (max-width : 998px) {
+@media screen and (min-width : 768px) and (max-width : 1024px) {
     
         body{
         margin-left: 30px; 
