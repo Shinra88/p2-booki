@@ -86,13 +86,14 @@ a{
 /* intro plus contenu */
 
 .intro{
-    margin-top: 67px;
+    top: 126px;
 }
 
     .intro h1{
         font-size: 22px;
         line-height: 26px;
         margin-bottom: 0px;
+        font-weight: bolder;
     }
 
     .intro p{
@@ -112,8 +113,8 @@ a{
 }
 
 #recherche_input{
-    margin-right: -2px;
     margin-left: -2px;
+    padding-top: 5px;
     border: 1px solid #f2f2f2;
     height: 49px;
     width: 16%;
@@ -137,7 +138,6 @@ a{
         font-family:'Raleway';
         font-weight: 700;
         font-size: 18px;
-        text-align: center;
 }
 
 #loupe_tel{
@@ -435,10 +435,10 @@ a{
             }
 
                 .card_cont2{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-                height: 144px; 
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    height: 144px; 
                 }
                 
                     .card2_text{
@@ -602,6 +602,7 @@ a{
       
       #bouton_recherche{
           font-size: 13px;
+          width: 15%;
       }   
 
 /* filtre plus contenu */
@@ -745,7 +746,8 @@ a{
             border-bottom: #f2f2f2 2px solid;
         }
     
-            .container_menu1:hover{
+            .container_menu1:active{
+                display:flex;
                 border-top: none;
                 border-bottom: #0065fc 2px solid;
                 width: 50%; 
@@ -758,7 +760,8 @@ a{
             border-bottom: #f2f2f2 2px solid;
         }
     
-            .container_menu2:hover{
+            .container_menu2:active{
+                display:flex;
                 border-top: none;
                 border-bottom: #0065fc 2px solid;
                 width: 50%; 
@@ -822,9 +825,10 @@ a{
         margin: 8px;
         padding-right: 0px;
         width: 42%;
+        cursor: default;
     }
 
-        .filtre_recherche div:hover{
+        .filtre_recherche div:active{
             background-color: #deebff;
         }
 
