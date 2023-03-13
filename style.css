@@ -114,7 +114,7 @@ a{
     margin-left: -2px;
     border: 1px solid #f2f2f2;
     height: 49px;
-    width: 16%;
+    width: 18%;
 }
 
     #recherche_input::placeholder{
@@ -131,7 +131,7 @@ a{
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         border: 1px solid #0065fc;
-        width: 10%;
+        width: 12%;
         font-family:'Raleway';
         font-weight: 700;
         font-size: 18px;
@@ -492,9 +492,9 @@ a{
                         padding-bottom: 8px;
                     }
 
-/* Section2 plus contenu */
+/* Section_activ plus contenu */
 
-.section2{
+.section_activ{
     display: flex;
     flex-direction: column;
     height: 626px;
@@ -622,17 +622,17 @@ a{
         margin-bottom: 53px;
     }
 
-    .hebergement_titre{
-        padding-left: 18px;  
-    }
+        .hebergement_titre{
+            padding-left: 18px;  
+        }
 
-    .image{
-        height: 100%;
-    }
+        .image{
+            height: 100%;
+        }
 
-    .card a{
-        height: 55%;
-    }
+        .card a{
+            height: 55%;
+        }
 
 /* Pop plus contenu */
 
@@ -641,70 +641,70 @@ a{
         width: 100%; 
     }
 
-    .pop_titre{
-        padding-bottom: 0px;
-    }
+        .pop_titre{
+            padding-bottom: 0px;
+        }
 
-    .graphs{
-        height: 16px;
-        width: 18px;
-    }
+        .graphs{
+            height: 16px;
+            width: 18px;
+        }
 
-    .image2{
-        width: 106px;
-    }
+        .image2{
+            width: 106px;
+        }
 
-    .card2_contener{
-        flex-direction: row;
-        flex-wrap: nowrap;
-        height: 180px;
-        align-items: flex-start;
-    }
+        .card2_contener{
+            flex-direction: row;
+            flex-wrap: nowrap;
+            height: 180px;
+            align-items: flex-start;
+        }
 
-    .card_pop{
-        flex-direction: row;
-        width: 30%;
-    }
-    
-    .card2{
-        flex-direction: row;
-    }
+        .card_pop{
+            flex-direction: row;
+            width: 30%;
+        }
+        
+        .card2{
+            flex-direction: row;
+        }
 
-/* Section2, plus contenu */
+/* Section_activ, plus contenu */
 
-    .section2{
+    .section_activ{
         height: 426px;
     }
    
-    .image3{
-        height: 217px;
-        width: 182px;
-    }
-
-    .card3{
-        height: 267px;
-        width: 182px;
-    }    
-        
-        .vieux{
-            width: 147px;
-            height: 15px;
+        .image3{
+            height: 217px;
+            width: 182px;
         }
 
-        .fort{
-            width: 147px;
-            height: 15px;
-        }
-        
-        .parc{
-            width: 147px;
-            height: 15px;
-        } 
-        
-        .notre_dame{
-            width: 147px;
-            height: 15px;
-        }        
+        .card3{
+            height: 267px;
+            width: 182px;
+        }    
+            
+            .vieux{
+                width: 147px;
+                height: 15px;
+            }
+
+            .fort{
+                width: 147px;
+                height: 15px;
+            }
+            
+            .parc{
+                width: 147px;
+                height: 15px;
+            } 
+            
+            .notre_dame{
+                width: 147px;
+                height: 15px;
+            }        
         
 }
 
@@ -916,42 +916,42 @@ a{
         padding-left: 20px;
     }
 
-/* Section2 plus contenu */
+/* Section_activ plus contenu */
 
-    .section2{
+    .section_activ{
         height: 1026px; 
     }
 
-    .image3{
-        height: 140px;
-    }
-    .section2_titre{
-        width: 212px;
-        padding-left: 20px;
-    }
-
-    .card3_contener{
-        flex-direction: column;
-        align-items: center;
-    }    
-
-    .card3{
-        height: 190px;
-        width: 90%;
-        margin-bottom: 24px;
-    }    
-
-        .card3 h3{
-            margin-left: 19px;
-            margin-top: 12px;
-        }                  
-    
-        .footer{
-            height: 625px;
-            flex-direction: column;  
-            padding-top: 25px;
+        .image3{
+            height: 140px;
+        }
+        .section2_titre{
+            width: 212px;
             padding-left: 20px;
         }
+
+        .card3_contener{
+            flex-direction: column;
+            align-items: center;
+        }    
+
+        .card3{
+            height: 190px;
+            width: 90%;
+            margin-bottom: 24px;
+        }    
+
+            .card3 h3{
+                margin-left: 19px;
+                margin-top: 12px;
+            }                  
+        
+            .footer{
+                height: 625px;
+                flex-direction: column;  
+                padding-top: 25px;
+                padding-left: 20px;
+            }
 }
 
 
