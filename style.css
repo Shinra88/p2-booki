@@ -28,60 +28,58 @@ a{
     height: 120px;
 }
 
-.logo_img{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    width: 50%;
-}
-
-.logo{
-    width: 61px;
-    height: 19px;
-}
-
-.container_menu{
-    display: flex;
-    width: 50%;
-    justify-content: flex-end;
-}
-
-    .container_menu1{
+    .logo_img{
         display: flex;
-        width: 162px;
+        align-items: center;
+        flex-direction: row;
+        width: 50%;
+    }
+
+    .logo{
+        width: 61px;
+        height: 19px;
+    }
+
+    .container_menu{
+        display: flex;
+        width: 50%;
         justify-content: flex-end;
-        padding-right: 40px;
     }
 
-        .container_menu1:hover{
+        .container_menu1{
             display: flex;
-            border-top: #0065fc 2px solid;
-            width: 162px; 
+            width: 162px;
+            justify-content: flex-end;
+            padding-right: 40px;
         }
 
-    .container_menu2{
-        display: flex;
-        width: 162px;
-        justify-content: center;
-        padding-right: 40px;
-        padding-left: 40px;
-    }
+            .container_menu1:hover{
+                display: flex;
+                border-top: #0065fc 2px solid;
+                width: 162px; 
+            }
 
-        .container_menu2:hover{
-            border-top: #0065fc 2px solid;
-            width: 162px; 
+        .container_menu2{
+            display: flex;
+            width: 162px;
+            justify-content: center;
+            padding-right: 40px;
+            padding-left: 40px;
         }
-    
-    .lien{
-        display: flex;
-        align-self: center;
-        color: #000000;
-        text-decoration: none;
-    }
 
-        .lien:hover{
-            color: #0065fc;
-        } 
+            .container_menu2:hover{
+                border-top: #0065fc 2px solid;
+                width: 162px; 
+            }
+        
+        .lien{
+            display: flex;
+            align-self: center;
+        }
+
+            .lien:hover{
+                color: #0065fc;
+            } 
 
 /* intro plus contenu */
 
