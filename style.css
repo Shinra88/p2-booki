@@ -114,7 +114,6 @@ a{
 
 #recherche_input{
     margin-left: -2px;
-    padding-top: 5px;
     border: 1px solid #f2f2f2;
     height: 49px;
     width: 16%;
@@ -201,7 +200,7 @@ a{
     }
 
     .filtre_recherche p{
-        font-weight: 700;
+        font-weight: 700;  
         font-size: 17px;
         line-height: 20px;
         margin-top: 10px;
@@ -746,7 +745,14 @@ a{
             border-bottom: #f2f2f2 2px solid;
         }
     
-            .container_menu1:active{
+        .container_menu1:hover{
+                display:flex;
+                border-top: none;
+                border-bottom: #0065fc 2px solid;
+                width: 50%; 
+        }
+
+        .container_menu1:active{
                 display:flex;
                 border-top: none;
                 border-bottom: #0065fc 2px solid;
@@ -766,6 +772,14 @@ a{
                 border-bottom: #0065fc 2px solid;
                 width: 50%; 
             } 
+
+            .container_menu2:hover{
+                display:flex;
+                border-top: none;
+                border-bottom: #0065fc 2px solid;
+                width: 50%; 
+            } 
+            
             
 /* intro plus contenu */
 
